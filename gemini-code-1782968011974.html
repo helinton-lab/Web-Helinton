@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon - Helinton</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 450px;
+            padding: 40px 30px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+        }
+        h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            font-weight: 800;
+            letter-spacing: -1px;
+            background: linear-gradient(45deg, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        p {
+            font-size: 1rem;
+            color: #94a3b8;
+            margin-bottom: 35px;
+            line-height: 1.6;
+        }
+        .btn-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 14px;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 600;
+            border-radius: 12px;
+            transition: all 0.2s ease;
+            font-size: 1rem;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+        .instagram {
+            background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        }
+        .tiktok {
+            background: #000000;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Coming Soon</h1>
+        <p>Website kami sedang dalam proses pengerjaan. Untuk sementara, tetap terhubung dengan kami melalui media sosial berikut:</p>
+        <div class="btn-container">
+            <!-- GANTI "USERNAME_KAMU" DENGAN USERNAME INSTAGRAM ANDA -->
+            <a href="https://instagram.com/USERNAME_KAMU" target="_blank" class="btn instagram">Ikuti di Instagram</a>
+            
+            <!-- GANTI "USERNAME_KAMU" DENGAN USERNAME TIKTOK ANDA (SERTAKAN TANDA @) -->
+            <a href="https://tiktok.com/@USERNAME_KAMU" target="_blank" class="btn tiktok">Ikuti di TikTok</a>
+        </div>
+    </div>
+</body>
+</html>
