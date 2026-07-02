@@ -18,15 +18,25 @@
         }
         .container {
             max-width: 450px;
+            width: 90%;
             padding: 40px 30px;
             background: rgba(255, 255, 255, 0.05);
             border-radius: 20px;
             backdrop-filter: blur(10px);
             border: 1px solid rgba(255, 255, 255, 0.1);
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+            box-sizing: border-box;
+        }
+        /* PENGATURAN LOGO HELINTON */
+        .logo {
+            max-width: 120px; /* Atur ukuran lebar maksimal logo Anda di sini */
+            height: auto;
+            margin-bottom: 20px; /* Jarak antara logo dan tulisan Coming Soon */
+            filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.2));
         }
         h1 {
-            font-size: 2.8rem;
+            font-size: 2.5rem;
+            margin-top: 0;
             margin-bottom: 10px;
             font-weight: 800;
             letter-spacing: -1px;
@@ -72,13 +82,13 @@
 </head>
 <body>
     <div class="container">
+        <!-- ⬇️ LOGO HELINTON (Pastikan file logo Anda bernama logo.png di GitHub) ⬇️ -->
+        <img src="images/logo.png" alt="Logo Helinton" class="logo">
+        
         <h1>Coming Soon</h1>
-        <p>Website kami sedang dalam proses pengerjaan. Untuk sementara, tetap terhubung dengan kami melalui media sosial berikut:</p>
+        <p>Website kami sedang dalam proses pemeliharaan. Untuk sementara, tetap terhubung dengan kami melalui media sosial berikut:</p>
         <div class="btn-container">
-            <!-- GANTI "USERNAME_KAMU" DENGAN USERNAME INSTAGRAM ANDA -->
             <a href="https://instagram.com/helinton.id" target="_blank" class="btn instagram">Ikuti di Instagram</a>
-            
-            <!-- GANTI "USERNAME_KAMU" DENGAN USERNAME TIKTOK ANDA (SERTAKAN TANDA @) -->
             <a href="https://tiktok.com/@helinton_id" target="_blank" class="btn tiktok">Ikuti di TikTok</a>
         </div>
     </div>
